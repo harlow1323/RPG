@@ -18,9 +18,6 @@ Maintenance Log:
 */
 
 
-using System.ComponentModel.Design;
-using System.Security.Cryptography;
-
 namespace rpg
 {
     internal class Program
@@ -34,7 +31,7 @@ namespace rpg
         static void GiveInstructions()
         {
             Console.WriteLine("hi welcome to school ");
-            Console.WriteLine("ulost stuff from ur bag go find ur things ");
+            Console.WriteLine("u lost stuff from ur bag go find ur things ");
             Console.WriteLine("code by harlow");
             string? userInput = Console.ReadLine();
 
