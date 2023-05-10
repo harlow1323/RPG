@@ -14,6 +14,11 @@ Maintenance Log:
 
 5/3/2023   made items and main menu 
            game loop
+
+5/9/23      move method and rooms
+            make methods
+            make classes
+            added stuff to classes
 			
 */
 
@@ -83,9 +88,7 @@ namespace rpg
 
             } while (userInput != "exit");
         }
-
-
-            }
+    
     }
 
     internal class Player
@@ -103,14 +106,52 @@ namespace rpg
 
         string name = "";
 
+        List<Item> inventory = new List<Item>();
         
+        static void Attack()
+        {
+
+        }
+        static void Move(string direction)
+        {
+
+        }
+        static void ViewInventory()
+        {
+
+        }
+        static void GrabItem(Item item)
+        {
+
+        }
+        static void Talk(NPC name)
+        {
+
+        }
+    }
+
+    internal class Item
+    {
+        string name;
+        string description;
+        int damageBonus = 0;
+        bool equipped = false;
+
 
     }
 
-    internal class Items
-    {
-        string name;
-        string[] actions = ["equip", "attack", "grab"];
+    internal class Room
 
+    {
+        string description;
+
+    }
+
+    internal class NPC
+    {
+
+    }
+    internal class SaveGame
+    { 
     }
 }
