@@ -19,6 +19,9 @@ Maintenance Log:
             make methods
             make classes
             added stuff to classes
+
+5/11/23     room
+            player and dungeon in game
 			
 */
 
@@ -59,6 +62,142 @@ namespace rpg
 
         static void GameLoop()
         {
+            Player player = new Player();
+            List<Room> dungeon = new List<Room>()
+            {
+               new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               },
+                new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               },
+            };
             string? userInput = Console.ReadLine();
             do
             {
@@ -132,10 +271,10 @@ namespace rpg
 
     internal class Item
     {
-        string name;
-        string description;
-        int damageBonus = 0;
-        bool equipped = false;
+       public string name;
+       public string description;
+       public int damageBonus = 0;
+       public bool equipped = false;
 
 
     }
@@ -143,8 +282,9 @@ namespace rpg
     internal class Room
 
     {
-        string description;
-
+       public string description;
+       public List<Item>? items;
+       public List<NPC>? NPCS;
     }
 
     internal class NPC

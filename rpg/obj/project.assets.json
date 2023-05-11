@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Harlo\\.nuget\\packages\\": {}
+    "C:\\Users\\leeh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Harlo\\source\\repos\\rpg\\rpg\\rpg.csproj",
+      "projectUniqueName": "C:\\Users\\leeh\\source\\repos\\RPG\\rpg\\rpg.csproj",
       "projectName": "rpg",
-      "projectPath": "C:\\Users\\Harlo\\source\\repos\\rpg\\rpg\\rpg.csproj",
-      "packagesPath": "C:\\Users\\Harlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Harlo\\source\\repos\\rpg\\rpg\\obj\\",
+      "projectPath": "C:\\Users\\leeh\\source\\repos\\RPG\\rpg\\rpg.csproj",
+      "packagesPath": "C:\\Users\\leeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leeh\\source\\repos\\RPG\\rpg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Harlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
