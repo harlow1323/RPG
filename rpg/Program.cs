@@ -22,6 +22,7 @@ Maintenance Log:
 
 5/11/23     room
             player and dungeon in game
+            25 dungeon rooms
 			
 */
 
@@ -65,15 +66,126 @@ namespace rpg
             Player player = new Player();
             List<Room> dungeon = new List<Room>()
             {
+                new Room()
+                 {
+                 description = "",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+            },
                new Room()
                {
-                 description = "",
+                 description = " the room is cold and dim and covered in bugs",
                  items = new List<Item>() { },
                  NPCS = new List<NPC>() { },
                },
                 new Room()
                {
-                 description = "",
+                 description = "the room is chilly and hexagonal,lighted with candles and very dusty",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is mossy and fully dark and looks like a storage room",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is a triangle and covered in ash and lit by a fire in a corner",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = " the room is wooden and octagonal and pitch black with snakes hissing",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has oil lamps and the floor has blood and in the middle there is a tree",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has walls that are water damaged and its covered in vines and a glass roof making natural sunlight",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has a stench of vomit and the floor tiles each glowed a different color between the cracks",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has broken furniture and the tiled ceiling is leaking something",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is small and narrow and floral wallpaper drenched in oil on the walls ",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has a huge statue and the entire room is made of gold with a big chandalier",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is dark and echos and is fully empty",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has 5 jail cells on each side and each cell has a torch, a bed, and a sink",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is full of bookshelves and looks old with cobwebs and dusty books",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has quick sand with no lights",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has a bunch of animals in cages and lit by torches",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is oval and has a red carpet rug and with hundreds of paintings on the walls and a huge chandalier",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is made fully of brick and has a low ceiling",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is a storage room full of chests",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room has creeky wooden floors with blood splatters and its pitch black",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is a circlular room with walls making a spiral path and there is one torch next to the enterence",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is an armory and decorated with bright uniquely shaped sheilds on one wall and the others with weapons and other items ",
+                 items = new List<Item>() { },
+                 NPCS = new List<NPC>() { },
+               }, new Room()
+               {
+                 description = "the room is cold and the floor and walls are lightly covered in a layer of snow and ice with footprints in the snow",
                  items = new List<Item>() { },
                  NPCS = new List<NPC>() { },
                }, new Room()
@@ -82,121 +194,7 @@ namespace rpg
                  items = new List<Item>() { },
                  NPCS = new List<NPC>() { },
                }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               }, new Room()
-               {
-                 description = "",
-                 items = new List<Item>() { },
-                 NPCS = new List<NPC>() { },
-               },
+              
             };
             string? userInput = Console.ReadLine();
             do
