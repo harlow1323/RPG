@@ -22,7 +22,7 @@ Maintenance Log:
 
 5/11/23     room
             player and dungeon in game
-            25 dungeon rooms
+            25 dungeon rooms and their descriptions
 			
 */
 
